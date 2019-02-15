@@ -1,0 +1,14 @@
+C:\Users\zhangyufei\source\repos\BorrowRegis\BorrowRegis\bin\Debug\BorrowRegis.exe
+C:\Users\zhangyufei\source\repos\BorrowRegis\BorrowRegis\bin\Debug\BorrowRegis.pdb
+C:\Users\zhangyufei\source\repos\BorrowRegis\BorrowRegis\obj\Debug\BorrowRegis.csprojAssemblyReference.cache
+C:\Users\zhangyufei\source\repos\BorrowRegis\BorrowRegis\obj\Debug\BorrowRegis.Borrow.resources
+C:\Users\zhangyufei\source\repos\BorrowRegis\BorrowRegis\obj\Debug\BorrowRegis.Login.resources
+C:\Users\zhangyufei\source\repos\BorrowRegis\BorrowRegis\obj\Debug\BorrowRegis.Lost.resources
+C:\Users\zhangyufei\source\repos\BorrowRegis\BorrowRegis\obj\Debug\BorrowRegis.MainForm.resources
+C:\Users\zhangyufei\source\repos\BorrowRegis\BorrowRegis\obj\Debug\BorrowRegis.Properties.Resources.resources
+C:\Users\zhangyufei\source\repos\BorrowRegis\BorrowRegis\obj\Debug\BorrowRegis.csproj.GenerateResource.cache
+C:\Users\zhangyufei\source\repos\BorrowRegis\BorrowRegis\obj\Debug\BorrowRegis.csproj.CoreCompileInputs.cache
+C:\Users\zhangyufei\source\repos\BorrowRegis\BorrowRegis\obj\Debug\BorrowRegis.exe
+C:\Users\zhangyufei\source\repos\BorrowRegis\BorrowRegis\obj\Debug\BorrowRegis.pdb
+C:\Users\zhangyufei\source\repos\BorrowRegis\BorrowRegis\bin\Debug\BorrowRegis.exe.config
+C:\Users\zhangyufei\source\repos\BorrowRegis\BorrowRegis\obj\Debug\BorrowRegis.ApproveForm.resources
