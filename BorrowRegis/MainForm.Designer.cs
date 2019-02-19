@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.borrowBtn = new System.Windows.Forms.Button();
             this.LostBtn = new System.Windows.Forms.Button();
             this.ApproveBtn = new System.Windows.Forms.Button();
@@ -47,7 +48,7 @@
             // LostBtn
             // 
             this.LostBtn.Font = new System.Drawing.Font("黑体", 16F);
-            this.LostBtn.Location = new System.Drawing.Point(33, 107);
+            this.LostBtn.Location = new System.Drawing.Point(33, 110);
             this.LostBtn.Name = "LostBtn";
             this.LostBtn.Size = new System.Drawing.Size(269, 59);
             this.LostBtn.TabIndex = 1;
@@ -70,12 +71,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(338, 295);
+            this.ClientSize = new System.Drawing.Size(338, 287);
             this.Controls.Add(this.ApproveBtn);
             this.Controls.Add(this.LostBtn);
             this.Controls.Add(this.borrowBtn);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "主界面";
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.ResumeLayout(false);
 
         }

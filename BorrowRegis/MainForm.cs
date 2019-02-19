@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
+using BorrowRegis.审批窗口;
+using BorrowRegis.登记页面;
 
 namespace BorrowRegis
 {
@@ -18,23 +14,35 @@ namespace BorrowRegis
 
         private void borrowBtn_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            Hide();
             Borrow borrowForm=new Borrow();
             borrowForm.Show();
         }
 
         private void LostBtn_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            Hide();
             Lost lostForm = new Lost();
             lostForm.Show();
         }
 
         private void ApproveBtn_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Lost lostForm = new Lost();
-            lostForm.Show();
+            Hide();
+            ApproveChoose approveChooseForm = new ApproveChoose();
+            approveChooseForm.Show();
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+            if (Properties.Settings.Default.permission )
+            {
+                ApproveBtn.Enabled = true;
+            }
+            else
+            {
+                ApproveBtn.Enabled = false;
+            }
         }
     }
 }
